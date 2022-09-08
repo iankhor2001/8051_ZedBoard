@@ -1,0 +1,427 @@
+
+*** Running vivado
+    with args -log oc8051_fpga_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source oc8051_fpga_top.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source oc8051_fpga_top.tcl -notrace
+Command: synth_design -top oc8051_fpga_top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10652
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1062.484 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'oc8051_fpga_top' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_fpga_top.v:58]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_top' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:115]
+INFO: [Synth 8-251] 	 *  [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:786]
+INFO: [Synth 8-251] 	 * External rom interface: Pipelined interface [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:787]
+INFO: [Synth 8-251] 	 *  [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:788]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_decoder' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_decoder.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_decoder' (1#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_decoder.v:90]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_alu' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu.v:89]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_multiply' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_multiply.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_multiply' (2#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_multiply.v:65]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_divide' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_divide.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_divide' (3#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_divide.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_alu' (4#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu.v:89]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_ram_top' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_top.v:77]
+	Parameter ram_aw bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'oc8051_ram_256x8_two_bist' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_256x8_two_bist.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_ram_256x8_two_bist' (5#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_256x8_two_bist.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_ram_top' (6#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_top.v:77]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_alu_src_sel' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu_src_sel.v:66]
+INFO: [Synth 8-226] default block is never used [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu_src_sel.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_alu_src_sel' (7#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu_src_sel.v:66]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_comp' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_comp.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_comp' (8#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_comp.v:66]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_rom' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_rom.v:65]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/iankh/Documents/NTHU/8051/Project/testall.in' is read successfully [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_rom.v:899]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_rom' (9#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_rom.v:65]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_cy_select' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_cy_select.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_cy_select' (10#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_cy_select.v:62]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_indi_addr' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_indi_addr.v:64]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_indi_addr.v:100]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_indi_addr' (11#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_indi_addr.v:64]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_memory_interface' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:92]
+WARNING: [Synth 8-6896] wait statement is inside initial block, initial block items will be ignored [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:1170]
+INFO: [Synth 8-251]    progran execution from external rom [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:374]
+INFO: [Synth 8-251]    progran execution from internal rom [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:376]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:426]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:507]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:948]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_memory_interface' (12#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:92]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_sfr' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sfr.v:98]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_acc' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_acc.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_acc' (13#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_acc.v:77]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_b_register' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_b_register.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_b_register' (14#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_b_register.v:65]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_sp' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sp.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_sp' (15#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sp.v:66]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_dptr' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_dptr.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_dptr' (16#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_dptr.v:62]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_psw' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_psw.v:72]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_psw.v:121]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_psw' (17#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_psw.v:72]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_ports' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ports.v:69]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ports.v:174]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ports.v:194]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_ports' (18#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ports.v:69]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_uart' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_uart.v:73]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_uart.v:289]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_uart' (19#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_uart.v:73]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_int' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_int.v:75]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_int.v:192]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_int' (20#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_int.v:75]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_tc' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc.v:72]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc.v:203]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_tc' (21#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc.v:72]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_tc2' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc2.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_tc2' (22#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc2.v:64]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sfr.v:593]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sfr.v:669]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_sfr' (23#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sfr.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_top' (24#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:115]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_xrom' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:55]
+	Parameter DELAY bound to: 0 - type: integer 
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'D:/Vivado/oc8051/in/testall.in'; please make sure the file is added to project and has read permission, ignoring [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:79]
+INFO: [Synth 8-251] 	 -----------------------  [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:80]
+INFO: [Synth 8-251] 	 * External rom load data complete [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:81]
+INFO: [Synth 8-251] 	 -----------------------  [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_xrom' (25#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:55]
+INFO: [Synth 8-6157] synthesizing module 'disp' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/disp.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'disp' (26#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/disp.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/clock_divider.v:23]
+	Parameter freq bound to: 1000000 - type: integer 
+	Parameter cmp bound to: 50 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (27#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/clock_divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_fpga_top' (28#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_fpga_top.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1271.211 ; gain = 208.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1271.211 ; gain = 208.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1271.211 ; gain = 208.727
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1271.211 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:362]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:367]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:372]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:375]
+Finished Parsing XDC File [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/oc8051_fpga_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/oc8051_fpga_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1318.258 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1318.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1318.258 ; gain = 255.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1318.258 ; gain = 255.773
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1318.258 ; gain = 255.773
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'wr_addr_reg' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:427]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1504.578 ; gain = 442.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   17 Bit       Adders := 3     
+	   2 Input   16 Bit       Adders := 4     
+	   4 Input   16 Bit       Adders := 1     
+	   2 Input   14 Bit       Adders := 2     
+	   2 Input   12 Bit       Adders := 3     
+	   3 Input    9 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 3     
+	   2 Input    8 Bit       Adders := 4     
+	   3 Input    8 Bit       Adders := 2     
+	   3 Input    5 Bit       Adders := 2     
+	   4 Input    5 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
+	   3 Input    4 Bit       Adders := 1     
+	   4 Input    4 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 5     
+	   3 Input    2 Bit       Adders := 1     
+	   4 Input    2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
++---XORs : 
+	                8 Bit    Wide XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 5     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 8     
+	                2 Bit    Registers := 11    
+	                1 Bit    Registers := 58    
++---RAMs : 
+	               2K Bit	(256 X 8 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 4     
+	   9 Input   16 Bit        Muxes := 1     
+	   8 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 3     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 102   
+	   8 Input    8 Bit        Muxes := 2     
+	   3 Input    8 Bit        Muxes := 2     
+	   9 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 8     
+	   5 Input    8 Bit        Muxes := 4     
+	   2 Input    7 Bit        Muxes := 3     
+	   5 Input    7 Bit        Muxes := 1     
+	   4 Input    7 Bit        Muxes := 1     
+	   7 Input    6 Bit        Muxes := 2     
+	 114 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 8     
+	   7 Input    4 Bit        Muxes := 1     
+	  20 Input    3 Bit        Muxes := 1     
+	  11 Input    3 Bit        Muxes := 1     
+	  80 Input    3 Bit        Muxes := 2     
+	   6 Input    3 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 7     
+	 111 Input    3 Bit        Muxes := 2     
+	  10 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 2     
+	  23 Input    3 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 1     
+	  16 Input    3 Bit        Muxes := 1     
+	  33 Input    2 Bit        Muxes := 1     
+	   6 Input    2 Bit        Muxes := 3     
+	 111 Input    2 Bit        Muxes := 2     
+	  10 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 8     
+	   5 Input    2 Bit        Muxes := 1     
+	 114 Input    2 Bit        Muxes := 2     
+	   7 Input    2 Bit        Muxes := 1     
+	   8 Input    2 Bit        Muxes := 1     
+	  80 Input    2 Bit        Muxes := 1     
+	  23 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	  63 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 121   
+	  80 Input    1 Bit        Muxes := 1     
+	  23 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 7     
+	 111 Input    1 Bit        Muxes := 1     
+	  10 Input    1 Bit        Muxes := 1     
+	 114 Input    1 Bit        Muxes := 1     
+	  20 Input    1 Bit        Muxes := 1     
+	  11 Input    1 Bit        Muxes := 1     
+	  83 Input    1 Bit        Muxes := 3     
+	  16 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 9     
+	   9 Input    1 Bit        Muxes := 8     
+	   7 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 8     
+	  27 Input    1 Bit        Muxes := 1     
+	  15 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:46 ; elapsed = 00:01:48 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|oc8051_rom  | p_0_out    | 4096x8        | LUT            | 
+|oc8051_rom  | p_0_out    | 4096x8        | LUT            | 
+|oc8051_rom  | p_0_out    | 4096x8        | LUT            | 
+|oc8051_rom  | p_0_out    | 4096x8        | LUT            | 
+|oc8051_xrom | p_0_out    | 65536x1       | LUT            | 
+|oc8051_xrom | p_0_out    | 65536x1       | LUT            | 
+|oc8051_xrom | p_0_out    | 65536x1       | LUT            | 
+|oc8051_xrom | p_0_out    | 65536x1       | LUT            | 
+|oc8051_rom  | p_0_out    | 4096x8        | LUT            | 
+|oc8051_rom  | p_0_out    | 4096x8        | LUT            | 
+|oc8051_rom  | p_0_out    | 4096x8        | LUT            | 
+|oc8051_rom  | p_0_out    | 4096x8        | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:54 ; elapsed = 00:01:56 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:54 ; elapsed = 00:01:56 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:54 ; elapsed = 00:01:57 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    15|
+|3     |LUT1   |     1|
+|4     |LUT2   |     7|
+|5     |LUT3   |    12|
+|6     |LUT4   |    18|
+|7     |LUT5   |    12|
+|8     |LUT6   |    11|
+|9     |MUXF7  |     5|
+|10    |FDCE   |    46|
+|11    |FDPE   |     2|
+|12    |IBUF   |     2|
+|13    |OBUF   |    49|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1545.703 ; gain = 483.219
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:39 ; elapsed = 00:01:57 . Memory (MB): peak = 1545.703 ; gain = 436.172
+Synthesis Optimization Complete : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1545.703 ; gain = 483.219
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1545.703 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1545.703 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+93 Infos, 6 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:06 ; elapsed = 00:02:10 . Memory (MB): peak = 1545.703 ; gain = 483.219
+INFO: [Common 17-1381] The checkpoint 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/oc8051_fpga_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file oc8051_fpga_top_utilization_synth.rpt -pb oc8051_fpga_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  8 13:40:27 2022...
