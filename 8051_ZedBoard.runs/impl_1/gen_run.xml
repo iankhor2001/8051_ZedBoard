@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1662669915">
-  <File Type="OPT-HWDEF" Name="oc8051_fpga_top.hwdef"/>
-  <File Type="ROUTE-BUS-SKEW" Name="oc8051_fpga_top_bus_skew_routed.rpt"/>
-  <File Type="PA-DCP" Name="oc8051_fpga_top.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1662675914">
   <File Type="BITSTR-BMM" Name="oc8051_fpga_top_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="oc8051_fpga_top_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="oc8051_fpga_top_timing_summary_init.rpt"/>
@@ -13,6 +10,7 @@
   <File Type="ROUTE-PWR-SUM" Name="oc8051_fpga_top_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="oc8051_fpga_top_reports.tcl"/>
   <File Type="OPT-DRC" Name="oc8051_fpga_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="oc8051_fpga_top.hwdef"/>
   <File Type="PWROPT-DCP" Name="oc8051_fpga_top_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="oc8051_fpga_top_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="oc8051_fpga_top_timing_summary_pwropted.rpt"/>
@@ -50,6 +48,7 @@
   <File Type="ROUTE-TIMING-RPX" Name="oc8051_fpga_top_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="oc8051_fpga_top_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="oc8051_fpga_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="oc8051_fpga_top_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="oc8051_fpga_top_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="oc8051_fpga_top_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="oc8051_fpga_top_postroute_physopt.dcp"/>
@@ -288,17 +287,8 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/generic_dpram.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -306,7 +296,13 @@
     </File>
     <File Path="$PSRCDIR/sources_1/bd/design_1/hdl/design_1_wrapper.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/generic_dpram.v">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -397,4 +393,5 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_processing_system7_0_0"/>
 </GenRun>

@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date             : Thu Sep  8 13:46:41 2022
+| Date             : Thu Sep  8 15:29:29 2022
 | Host             : Ian-s-Zenbook-13 running 64-bit major release  (build 9200)
 | Command          : report_power -file oc8051_fpga_top_power_routed.rpt -pb oc8051_fpga_top_power_summary_routed.pb -rpx oc8051_fpga_top_power_routed.rpx
 | Design           : oc8051_fpga_top
@@ -29,20 +29,20 @@ Table of Contents
 1. Summary
 ----------
 
-+--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 16.627 (Junction temp exceeded!) |
-| Design Power Budget (W)  | Unspecified*                     |
-| Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 15.585                           |
-| Device Static (W)        | 1.043                            |
-| Effective TJA (C/W)      | 11.5                             |
-| Max Ambient (C)          | 0.0                              |
-| Junction Temperature (C) | 125.0                            |
-| Confidence Level         | Low                              |
-| Setting File             | ---                              |
-| Simulation Activity File | ---                              |
-| Design Nets Matched      | NA                               |
-+--------------------------+----------------------------------+
++--------------------------+---------------------------------+
+| Total On-Chip Power (W)  | 7.431 (Junction temp exceeded!) |
+| Design Power Budget (W)  | Unspecified*                    |
+| Power Budget Margin (W)  | NA                              |
+| Dynamic (W)              | 6.759                           |
+| Device Static (W)        | 0.673                           |
+| Effective TJA (C/W)      | 11.5                            |
+| Max Ambient (C)          | 0.0                             |
+| Junction Temperature (C) | 110.7                           |
+| Confidence Level         | Low                             |
+| Setting File             | ---                             |
+| Simulation Activity File | ---                             |
+| Design Nets Matched      | NA                              |
++--------------------------+---------------------------------+
 * Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
 
 
@@ -52,17 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.393 |      139 |       --- |             --- |
-|   LUT as Logic |     0.319 |       46 |     53200 |            0.09 |
-|   CARRY4       |     0.039 |       15 |     13300 |            0.11 |
-|   Register     |     0.024 |       48 |    106400 |            0.05 |
+| Slice Logic    |     0.189 |       81 |       --- |             --- |
+|   LUT as Logic |     0.143 |       25 |     53200 |            0.05 |
+|   CARRY4       |     0.023 |       12 |     13300 |            0.09 |
+|   Register     |     0.017 |       36 |    106400 |            0.03 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
-|   F7/F8 Muxes  |     0.005 |        5 |     53200 |           <0.01 |
-|   Others       |     0.000 |        9 |       --- |             --- |
-| Signals        |     0.545 |      117 |       --- |             --- |
-| I/O            |    14.647 |       51 |       200 |           25.50 |
-| Static Power   |     1.043 |          |           |                 |
-| Total          |    16.627 |          |           |                 |
+|   Others       |     0.000 |        5 |       --- |             --- |
+| Signals        |     0.174 |       61 |       --- |             --- |
+| I/O            |     6.396 |       10 |       200 |            5.00 |
+| Static Power   |     0.673 |          |           |                 |
+| Total          |     7.431 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -72,20 +71,20 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     1.240 |       0.942 |      0.299 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     1.012 |       0.913 |      0.100 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     1.792 |       1.791 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.553 |       0.367 |      0.187 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.304 |       0.234 |      0.070 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     1.810 |       1.809 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vcco18    |       1.800 |     3.939 |       3.938 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccbram   |       1.000 |     0.026 |       0.000 |      0.026 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.014 |       0.000 |      0.014 |       NA    | Unspecified | NA         |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccpint   |       1.000 |     0.473 |       0.000 |      0.473 |       NA    | Unspecified | NA         |
+| Vccpint   |       1.000 |     0.283 |       0.000 |      0.283 |       NA    | Unspecified | NA         |
 | Vccpaux   |       1.800 |     0.010 |       0.000 |      0.010 |       NA    | Unspecified | NA         |
 | Vccpll    |       1.800 |     0.003 |       0.000 |      0.003 |       NA    | Unspecified | NA         |
 | Vcco_ddr  |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -146,12 +145,11 @@ Table of Contents
 +------------------------------+-----------+
 | Name                         | Power (W) |
 +------------------------------+-----------+
-| oc8051_fpga_top              |    15.585 |
-|   clock_divider1             |     0.077 |
-|   disp1                      |     0.375 |
-|   oc8051_top_1               |     0.394 |
+| oc8051_fpga_top              |     6.759 |
+|   clock_divider1             |     0.124 |
+|   oc8051_top_1               |     0.226 |
 |     oc8051_decoder1          |     0.015 |
-|     oc8051_memory_interface1 |     0.379 |
+|     oc8051_memory_interface1 |     0.211 |
 +------------------------------+-----------+
 
 

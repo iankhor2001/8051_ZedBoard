@@ -1,6 +1,5 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.sim/sim_1/synth/func/xsim/oc8051_fpga_top_tb_func_synth.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module clock_divider
-INFO: [VRFC 10-311] analyzing module disp
 INFO: [VRFC 10-311] analyzing module oc8051_decoder
 INFO: [VRFC 10-311] analyzing module oc8051_fpga_top
 INFO: [VRFC 10-311] analyzing module oc8051_memory_interface

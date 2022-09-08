@@ -1,7 +1,7 @@
-Running: xsim.dir/oc8051_fpga_top_tb_behav/xsimk.exe -simmode gui -wdb oc8051_fpga_top_tb_behav.wdb -simrunnum 0 -socket 54157
+Running: xsim.dir/oc8051_fpga_top_tb_behav/xsimk.exe -simmode gui -wdb oc8051_fpga_top_tb_behav.wdb -simrunnum 0 -socket 54326
 Design successfully loaded
-Design Loading Memory Usage: 6688 KB (Peak: 6688 KB)
+Design Loading Memory Usage: 6684 KB (Peak: 6684 KB)
 Design Loading CPU Usage: 30 ms
 Simulation completed
-Simulation Memory Usage: 16612 KB (Peak: 16612 KB)
+Simulation Memory Usage: 16616 KB (Peak: 16616 KB)
 Simulation CPU Usage: 14718 ms

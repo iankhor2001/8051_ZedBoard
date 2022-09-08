@@ -172,14 +172,14 @@ set_property PACKAGE_PIN Y9 [get_ports {clk_100M}];  # "GCLK"
 # ----------------------------------------------------------------------------
 # User LEDs - Bank 33
 # ---------------------------------------------------------------------------- 
-set_property PACKAGE_PIN T22 [get_ports {iadr_o[15]}];  # "LD0"
-set_property PACKAGE_PIN T21 [get_ports {iadr_o[14]}];  # "LD1"
-set_property PACKAGE_PIN U22 [get_ports {iadr_o[13]}];  # "LD2"
-set_property PACKAGE_PIN U21 [get_ports {iadr_o[12]}];  # "LD3"
-set_property PACKAGE_PIN V22 [get_ports {iadr_o[11]}];  # "LD4"
-set_property PACKAGE_PIN W22 [get_ports {iadr_o[10]}];  # "LD5"
-set_property PACKAGE_PIN U19 [get_ports {iadr_o[9]}];  # "LD6"
-set_property PACKAGE_PIN U14 [get_ports {iadr_o[8]}];  # "LD7"
+set_property PACKAGE_PIN T22 [get_ports {internal_addr[7]}];  # "LD0"
+set_property PACKAGE_PIN T21 [get_ports {internal_addr[6]}];  # "LD1"
+set_property PACKAGE_PIN U22 [get_ports {internal_addr[5]}];  # "LD2"
+set_property PACKAGE_PIN U21 [get_ports {internal_addr[4]}];  # "LD3"
+set_property PACKAGE_PIN V22 [get_ports {internal_addr[3]}];  # "LD4"
+set_property PACKAGE_PIN W22 [get_ports {internal_addr[2]}];  # "LD5"
+set_property PACKAGE_PIN U19 [get_ports {internal_addr[1]}];  # "LD6"
+set_property PACKAGE_PIN U14 [get_ports {internal_addr[0]}];  # "LD7"
 
 # ----------------------------------------------------------------------------
 # VGA Output - Bank 33

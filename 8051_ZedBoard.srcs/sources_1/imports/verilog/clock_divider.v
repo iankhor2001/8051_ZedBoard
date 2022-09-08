@@ -27,7 +27,7 @@ module clock_divider(
     );
     input clk_100M, rst;
     output reg clk_o;
-    parameter freq = 1_000_000; // Hz
+    parameter freq = 5_000; // Hz
 //    parameter freq = 50_000_000; // Hz
     parameter cmp = 50000000/freq;
     reg [31:0] counter;

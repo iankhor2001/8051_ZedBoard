@@ -33,7 +33,8 @@ module oc8051_fpga_top_tb();
     wire [7:0] p0, p1;
     
     //external rom
-    wire [15:0] iadr_o;
+    wire [7:0] iadr_o;
+//    wire [15:0] iadr_o;
 //    wire [31:0] idat_i;
 //    wire istb_o;
     
@@ -47,9 +48,13 @@ module oc8051_fpga_top_tb();
 //    wire [31:0] idat_cur;
 //    wire pc_wr_r2;
 //    wire ea_rom_sel;
-    oc8051_fpga_top oc8051_fpga_top1(.clk_100M(clk_100M), .rst(rst), .SSD_an(SSD_an), .SSD_out(SSD_out)// .clk_8051(clk_8051), .ea(ea), 
+    oc8051_fpga_top oc8051_fpga_top1(.clk_100M(clk_100M), .rst(rst)
+                                    //, .SSD_an(SSD_an), .SSD_out(SSD_out) 
+                                    //.clk_8051(clk_8051), .ea(ea), 
 //                                    , .idat_i(idat_i), .istb_o(istb_o)
-                                    ,.p0_out(p0), .p1_out(p1),.iadr_o(iadr_o)
+                                    //,.p0_out(p0), .p1_out(p1)
+                                    //,.iadr_o(iadr_o)
+                                      ,.internal_addr(iadr_o)
 //                                    ,.pc_out(pc_out), .istb_t(istb_t), .inc_pc(inc_pc), .pc_buf(pc_buf), .op_pos(op_pos), .rd(rd), .alu_op(alu_op)
 //                                    ,.iack_i(iack_i), .idat_cur(idat_cur), .pc_wr_r2(pc_wr_r2), .ea_rom_sel(ea_rom_sel)
                                     );

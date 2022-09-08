@@ -55,41 +55,41 @@
 
 `include "oc8051_defines.v"
 
-module oc8051_fpga_top (clk_100M, rst,
+module oc8051_fpga_top (clk_100M, rst
 //
 // interrupt interface
 //
-//   int0, int1,
+//   , int0, int1
 //
 // 2x7 led display output (port 0)
 //
-   SSD_an, SSD_out,
+//   , SSD_an, SSD_out
 //
 // ports
 //
-   p0_out, p1_out,// p2_out, p3_out, 
+//   , p0_out, p1_out// , p2_out, p3_out
 //
 // external instruction rom interface
 //
-//   ea, iadr_o, istb_o, iack_i, icyc_o, idat_i,
+//   , ea, iadr_o, istb_o, iack_i, icyc_o, idat_i
 //
 // external data ram interface
 //
-//   stb_o, cyc_o, dat_i, dat_o, adr_o, ack_i, we_o,
+//   , stb_o, cyc_o, dat_i, dat_o, adr_o, ack_i, we_o
 //
 // serial interface
 //
-//   rxd, txd, 
+//   , rxd, txd
 //
 // timer/counter interface
 //
-//   t0, t1,
+//   , t0, t1
 //
 // button
 //
-//   btn_r
-   rst_o
-   , iadr_o
+//   , btn_r
+//   , rst_o
+     , internal_addr
    );
 
 input clk_100M, rst;
@@ -103,19 +103,26 @@ wire [31:0] idat_i;
 wire istb_o;
 wire  icyc_o, stb_o, cyc_o, we_o;
 wire txd;
-output wire [7:0] p0_out, p1_out;
+wire [7:0] p0_out, p1_out;
+//output wire [7:0] p0_out, p1_out;
 wire [7:0] p2_out, p3_out;
 wire [7:0] dat_o;
 wire [15:0] adr_o;
 
 //wire [15:0] iadr_o;
-output wire [15:0] iadr_o;
+//output wire [15:0] iadr_o;
+wire [15:0] iadr_o;
+wire [7:0] SSD_out;
+wire [7:0] SSD_an;
 
-output wire [7:0] SSD_out;
-output wire [7:0] SSD_an;
+//output wire [7:0] SSD_out;
+//output wire [7:0] SSD_an;
+
 //input btn_r;
-output wire rst_o;
-
+//output wire rst_o;
+wire rst_o;
+output wire [7:0]internal_addr;
+assign internal_addr = iadr_o[15:8];
 assign rst_o = rst;
 
 /*wire cstb_o, ccyc_o, cack_i;
