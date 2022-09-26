@@ -1,0 +1,10 @@
+14:11:30 **** Build of configuration Debug for project zedboard_getting_started_with_zynq_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 65435 C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/oc8051_fpga_top/export/oc8051_fpga_top/oc8051_fpga_top.xpfm domain_ps7_cortexa9_0 C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/oc8051_fpga_top/export/oc8051_fpga_top/oc8051_fpga_top.xpfm --sys_config oc8051_fpga_top --bif C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq_system/Debug/system.bif --bitstream C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/bitstream/oc8051_fpga_top.bit --elf C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/Debug/zedboard_getting_started_with_zynq.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/bitstream/oc8051_fpga_top.bit
+Running C:/Xilinx/Vitis/2020.1/bin/bootgen  -image C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:11:42 Build Finished (took 11s.378ms)
+

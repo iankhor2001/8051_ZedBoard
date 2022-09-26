@@ -1,0 +1,131 @@
+13:23:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\iankh\Documents\NTHU\8051\Project\8051_ZedBoard\temp_xsdb_launch_script.tcl
+13:23:00 INFO  : Registering command handlers for Vitis TCF services
+13:23:04 INFO  : XSCT server has started successfully.
+13:23:04 INFO  : plnx-install-location is set to ''
+13:23:04 INFO  : Successfully done setting XSCT server connection channel  
+13:23:05 INFO  : Platform repository initialization has completed.
+13:23:08 INFO  : Successfully done setting workspace for the tool. 
+13:23:08 INFO  : Successfully done query RDI_DATADIR 
+13:52:48 INFO  : Result from executing command 'getProjects': oc8051_fpga_top
+13:52:48 INFO  : Result from executing command 'getPlatforms': 
+13:52:49 INFO  : Platform 'oc8051_fpga_top' is added to custom repositories.
+13:53:02 INFO  : Platform 'oc8051_fpga_top' is added to custom repositories.
+14:03:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:06:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:07:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:07:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}' command is executed.
+14:07:38 INFO  : FPGA configured successfully with bitstream "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/bitstream/oc8051_fpga_top.bit"
+14:09:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:09:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}' command is executed.
+14:09:37 INFO  : FPGA configured successfully with bitstream "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/bitstream/oc8051_fpga_top.bit"
+14:11:26 INFO  : Result from executing command 'getProjects': oc8051_fpga_top
+14:11:26 INFO  : Result from executing command 'getPlatforms': oc8051_fpga_top|C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/oc8051_fpga_top/export/oc8051_fpga_top/oc8051_fpga_top.xpfm
+14:11:27 INFO  : Checking for BSP changes to sync application flags for project 'zedboard_getting_started_with_zynq'...
+14:11:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:11:53 INFO  : Jtag cable 'Digilent Zed 210248B4A80B' is selected.
+14:11:53 INFO  : 'jtag frequency' command is executed.
+14:11:53 INFO  : Context for 'APU' is selected.
+14:11:54 INFO  : System reset is completed.
+14:11:57 INFO  : 'after 3000' command is executed.
+14:11:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}' command is executed.
+14:11:59 INFO  : FPGA configured successfully with bitstream "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/bitstream/oc8051_fpga_top.bit"
+14:11:59 INFO  : Context for 'APU' is selected.
+14:11:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/oc8051_fpga_top/export/oc8051_fpga_top/hw/oc8051_fpga_top.xsa'.
+14:11:59 INFO  : 'configparams force-mem-access 1' command is executed.
+14:11:59 INFO  : Context for 'APU' is selected.
+14:11:59 INFO  : Sourcing of 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/psinit/ps7_init.tcl' is done.
+14:12:00 INFO  : 'ps7_init' command is executed.
+14:12:00 INFO  : 'ps7_post_config' command is executed.
+14:12:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:12:00 INFO  : The application 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/Debug/zedboard_getting_started_with_zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:12:00 INFO  : 'configparams force-mem-access 0' command is executed.
+14:12:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}
+fpga -file C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/bitstream/oc8051_fpga_top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/oc8051_fpga_top/export/oc8051_fpga_top/hw/oc8051_fpga_top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/Debug/zedboard_getting_started_with_zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:12:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:12:00 INFO  : 'con' command is executed.
+14:12:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:12:00 INFO  : Launch script is exported to file 'C:\Users\iankh\Documents\NTHU\8051\Project\8051_ZedBoard\.sdk\launch_scripts\single_application_debug\systemdebugger_zedboard_getting_started_with_zynq_system_standalone.tcl'
+14:17:48 INFO  : Disconnected from the channel tcfchan#1.
+14:17:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:18:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+14:18:07 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+14:18:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:18:35 INFO  : Jtag cable 'Digilent Zed 210248B4A80B' is selected.
+14:18:35 INFO  : 'jtag frequency' command is executed.
+14:18:35 INFO  : Context for 'APU' is selected.
+14:18:35 INFO  : System reset is completed.
+14:18:38 INFO  : 'after 3000' command is executed.
+14:18:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}' command is executed.
+14:18:41 INFO  : FPGA configured successfully with bitstream "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/bitstream/oc8051_fpga_top.bit"
+14:18:41 INFO  : Context for 'APU' is selected.
+14:18:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/oc8051_fpga_top/export/oc8051_fpga_top/hw/oc8051_fpga_top.xsa'.
+14:18:41 INFO  : 'configparams force-mem-access 1' command is executed.
+14:18:41 INFO  : Context for 'APU' is selected.
+14:18:41 INFO  : Sourcing of 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/psinit/ps7_init.tcl' is done.
+14:18:42 INFO  : 'ps7_init' command is executed.
+14:18:42 INFO  : 'ps7_post_config' command is executed.
+14:18:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:18:42 INFO  : The application 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/Debug/zedboard_getting_started_with_zynq.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:18:42 INFO  : 'configparams force-mem-access 0' command is executed.
+14:18:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}
+fpga -file C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/bitstream/oc8051_fpga_top.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/oc8051_fpga_top/export/oc8051_fpga_top/hw/oc8051_fpga_top.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/zedboard_getting_started_with_zynq/Debug/zedboard_getting_started_with_zynq.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:18:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:18:42 INFO  : 'con' command is executed.
+14:18:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:18:42 INFO  : Launch script is exported to file 'C:\Users\iankh\Documents\NTHU\8051\Project\8051_ZedBoard\.sdk\launch_scripts\single_application_debug\debugger_zedboard_getting_started_with_zynq-default.tcl'
+14:19:38 INFO  : Disconnected from the channel tcfchan#4.

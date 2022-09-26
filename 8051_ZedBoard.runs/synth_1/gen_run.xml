@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1662675914">
-  <File Type="PA-TCL" Name="oc8051_fpga_top.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="oc8051_fpga_top_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="oc8051_fpga_top_reports.tcl"/>
-  <File Type="RDS-RDS" Name="oc8051_fpga_top.vds"/>
-  <File Type="RDS-UTIL" Name="oc8051_fpga_top_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="oc8051_fpga_top_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="oc8051_fpga_top.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="oc8051_fpga_top_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="oc8051_fpga_top_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1663276861">
+  <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="design_1_wrapper.vds"/>
+  <File Type="RDS-DCP" Name="design_1_wrapper.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/verilog/oc8051_timescale.v">
@@ -292,7 +287,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="oc8051_fpga_top"/>
+      <Option Name="TopModule" Val="design_1_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -319,5 +314,10 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_gpio_1_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_processing_system7_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_gpio_0_1"/>
 </GenRun>

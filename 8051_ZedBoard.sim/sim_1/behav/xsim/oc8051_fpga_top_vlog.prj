@@ -1,0 +1,39 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_timescale.v" "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_defines.v" --include "../../../../8051_ZedBoard.srcs/sources_1/imports/verilog" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/clock_divider.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/new/disp.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_acc.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu_src_sel.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_b_register.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_comp.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_cy_select.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_decoder.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_divide.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_dptr.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_indi_addr.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_int.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_multiply.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ports.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_psw.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_256x8_two_bist.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_top.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_rom.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sfr.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sp.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc2.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_uart.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/new/oc8051_fpga_top.v" \
+"../../../../8051_ZedBoard.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../8051_ZedBoard.srcs/sources_1/new/generic_dpram.v" \
+"../../../../8051_ZedBoard.srcs/sim_1/imports/new/oc8051_fpga_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

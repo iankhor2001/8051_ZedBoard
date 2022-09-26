@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="zedboard_getting_started_with_zynq-target"/>
+	<item value="" key="zedboard_getting_started_with_zynq-bmmFile"/>
+	<item value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Zed 210248B4A80B&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Zed-210248B4A80B-4ba00477-0&quot;,&quot;3&quot;:&quot;jsn-Zed-210248B4A80B-23727093-0&quot;}}]}" key="devices_info_Local"/>
+	<item value="false" key="zedboard_getting_started_with_zynq-partial_bit"/>
+	<item value="Auto Detect" key="zedboard_getting_started_with_zynq-device"/>
+	<item value="zedboard_getting_started_with_zynq" key="programfpga.sdxproject"/>
+	<item value="_ide/bitstream/oc8051_fpga_top.bit" key="zedboard_getting_started_with_zynq-bitFile"/>
+	<item value="false" key="zedboard_getting_started_with_zynq-skip_rev_check"/>
+</section>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Sep 22 15:38:15 2022
+# Process ID: 19504
+# Current directory: C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.sim/sim_1/behav/xsim/xsim.dir/oc8051_fpga_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.sim/sim_1/behav/xsim/xsim.dir/oc8051_fpga_top_behav/webtalk/xsim_webtalk.tcl -notrace

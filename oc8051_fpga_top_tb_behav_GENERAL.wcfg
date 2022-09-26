@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="oc8051_fpga_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="oc8051_fpga_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="30000001fs"></ZoomEndTime>
+      <Cursor1Time time="2496000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="133"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/oc8051_fpga_top_tb/clk_100M" type="logic">
+      <obj_property name="ElementShortName">clk_100M</obj_property>
+      <obj_property name="ObjectShortName">clk_100M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/wbi_dat_i" type="array">
+      <obj_property name="ElementShortName">wbi_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbi_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/op1_n" type="array">
+      <obj_property name="ElementShortName">op1_n[7:0]</obj_property>
+      <obj_property name="ObjectShortName">op1_n[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/idat_i" type="array">
+      <obj_property name="ElementShortName">idat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/sfr_out" type="array">
+      <obj_property name="ElementShortName">sfr_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sfr_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/sfr_bit" type="logic">
+      <obj_property name="ElementShortName">sfr_bit</obj_property>
+      <obj_property name="ObjectShortName">sfr_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/acc" type="array">
+      <obj_property name="ElementShortName">acc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/pc" type="array">
+      <obj_property name="ElementShortName">pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/p1_out" type="array">
+      <obj_property name="ElementShortName">p1_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p1_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/p0_out" type="array">
+      <obj_property name="ElementShortName">p0_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p0_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/iadr_o" type="array">
+      <obj_property name="ElementShortName">iadr_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">iadr_o[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/idat_onchip" type="array">
+      <obj_property name="ElementShortName">idat_onchip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idat_onchip[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/rmw" type="logic">
+      <obj_property name="ElementShortName">rmw</obj_property>
+      <obj_property name="ObjectShortName">rmw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/wbd_we_o" type="logic">
+      <obj_property name="ElementShortName">wbd_we_o</obj_property>
+      <obj_property name="ObjectShortName">wbd_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/rxd_i" type="logic">
+      <obj_property name="ElementShortName">rxd_i</obj_property>
+      <obj_property name="ObjectShortName">rxd_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oc8051_fpga_top_tb/oc8051_fpga_top1/oc8051_top_1/txd_o" type="logic">
+      <obj_property name="ElementShortName">txd_o</obj_property>
+      <obj_property name="ObjectShortName">txd_o</obj_property>
+   </wvobject>
+</wave_config>

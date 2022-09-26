@@ -896,7 +896,7 @@ assign ea = 1'b0;
 
 initial
 begin
-  $readmemh("C:/Users/iankh/Documents/NTHU/8051/Project/testall.in", buff);
+  $readmemh("C:/Users/iankh/Documents/NTHU/8051/Project/asm/in/serial_test.in", buff);
 end
 
 always @(posedge clk or posedge rst)

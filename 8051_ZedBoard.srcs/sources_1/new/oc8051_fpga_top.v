@@ -90,19 +90,25 @@ module oc8051_fpga_top (clk_100M, rst
 //   , btn_r
 //   , rst_o
      , internal_addr
+     , rxd
+     , txd
    );
 
 input clk_100M, rst;
 wire clk_8051;
 wire ea;
 wire  iack_i;
-wire  ack_i, int0, int1, rxd, t0, t1;
+wire  ack_i, int0, int1, t0, t1;
 wire  [7:0] dat_i;
 wire [31:0] idat_i;
+//wire txd;
+
+input rxd;
+output txd;
 
 wire istb_o;
 wire  icyc_o, stb_o, cyc_o, we_o;
-wire txd;
+//wire txd;
 wire [7:0] p0_out, p1_out;
 //output wire [7:0] p0_out, p1_out;
 wire [7:0] p2_out, p3_out;
