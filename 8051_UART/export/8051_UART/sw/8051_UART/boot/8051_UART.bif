@@ -1,0 +1,7 @@
+/*8051_UART*/
+the_ROM_image:
+{
+  [bootloader]<8051_UART/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

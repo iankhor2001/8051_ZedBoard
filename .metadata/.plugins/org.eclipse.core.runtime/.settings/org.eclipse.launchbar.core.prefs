@@ -1,8 +1,12 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_zedboard_getting_started_with_zynq_system,org.eclipse.launchbar.core.descriptorType.default\:Debugger_zedboard_getting_started_with_zynq-Default
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_8051_UART_Zedboard_system,org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_8051_UART_Zedboard_system_1,org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_8051_UART_Zedboard_system_2,org.eclipse.launchbar.core.descriptorType.default\:Debugger_8051_UART_Zedboard-Default
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_8051_UART_Zedboard-Default/activeLaunchMode=embrun
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_zedboard_getting_started_with_zynq-Default/activeLaunchMode=embrun
+org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_8051_UART_Zedboard_system/activeLaunchMode=systemrun
+org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_8051_UART_Zedboard_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_8051_UART_Zedboard_system_1/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_zedboard_getting_started_with_zynq_system/activeLaunchMode=systemrun
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_zedboard_getting_started_with_zynq_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

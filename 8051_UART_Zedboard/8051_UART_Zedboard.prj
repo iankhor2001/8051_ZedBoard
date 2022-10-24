@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="8051_UART_Zedboard" location="C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard" platform="C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/8051_UART.xpfm" platformUID="xilinx:zed::0.0(custom)" systemProject="8051_UART_Zedboard_system" sysConfig="8051_UART" runtime="cpp" cpu="domain_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="11e745b43298a3c4e544d4487ff9aba7">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.35562385" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.561912332" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

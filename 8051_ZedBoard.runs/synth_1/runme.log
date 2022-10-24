@@ -13,6 +13,10 @@ source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+add_files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1062.305 ; gain = 0.000
 Command: synth_design -top design_1_wrapper -part xc7z020clg484-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
@@ -20,397 +24,358 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 10456
+INFO: [Synth 8-7075] Helper process launched with PID 26752
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1063.199 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1062.305 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_0_1' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_0_1' (1#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_1_1' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_axi_gpio_1_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_1_1' (2#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_axi_gpio_1_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_1' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_processing_system7_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_1' (3#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_processing_system7_0_1_stub.v:6]
-WARNING: [Synth 8-7071] port 'TTC0_WAVE0_OUT' of module 'design_1_processing_system7_0_1' is unconnected for instance 'processing_system7_0' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:209]
-WARNING: [Synth 8-7071] port 'TTC0_WAVE1_OUT' of module 'design_1_processing_system7_0_1' is unconnected for instance 'processing_system7_0' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:209]
-WARNING: [Synth 8-7071] port 'TTC0_WAVE2_OUT' of module 'design_1_processing_system7_0_1' is unconnected for instance 'processing_system7_0' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:209]
-WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_1' is unconnected for instance 'processing_system7_0' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:209]
-WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_1' is unconnected for instance 'processing_system7_0' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:209]
-WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_1' has 68 connections declared, but only 63 given [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:209]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_0' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_15SPJYW' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:908]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_15SPJYW' (4#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:908]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_XU9C55' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:1040]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_XU9C55' (5#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:1040]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:1172]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (6#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (7#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:1172]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (8#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_xbar_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'design_1_xbar_0' is unconnected for instance 'xbar' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:867]
-WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'design_1_xbar_0' is unconnected for instance 'xbar' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:867]
-WARNING: [Synth 8-7023] instance 'xbar' of module 'design_1_xbar_0' has 40 connections declared, but only 38 given [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:867]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (9#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:363]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (10#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/.Xil/Vivado-19876-Ian-s-Zenbook-13/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:354]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:354]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:354]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:354]
-WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:354]
-INFO: [Synth 8-6155] done synthesizing module 'design_1' (11#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (12#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_1_oc8051_fpga_top_0_0' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_oc8051_fpga_top_0_0/synth/design_1_oc8051_fpga_top_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_fpga_top' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_fpga_top.v:58]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_top' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:115]
+INFO: [Synth 8-251] 	 *  [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:786]
+INFO: [Synth 8-251] 	 * External rom interface: Pipelined interface [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:787]
+INFO: [Synth 8-251] 	 *  [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:788]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_decoder' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_decoder.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_decoder' (1#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_decoder.v:90]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_alu' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu.v:89]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_multiply' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_multiply.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_multiply' (2#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_multiply.v:65]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_divide' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_divide.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_divide' (3#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_divide.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_alu' (4#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu.v:89]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_ram_top' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_top.v:77]
+	Parameter ram_aw bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'oc8051_ram_256x8_two_bist' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_256x8_two_bist.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_ram_256x8_two_bist' (5#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_256x8_two_bist.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_ram_top' (6#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ram_top.v:77]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_alu_src_sel' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu_src_sel.v:66]
+INFO: [Synth 8-226] default block is never used [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu_src_sel.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_alu_src_sel' (7#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_alu_src_sel.v:66]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_comp' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_comp.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_comp' (8#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_comp.v:66]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_rom' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_rom.v:65]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/iankh/Documents/NTHU/8051/Project/in/uart_asm.in' is read successfully [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_rom.v:899]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_rom' (9#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_rom.v:65]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_cy_select' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_cy_select.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_cy_select' (10#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_cy_select.v:62]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_indi_addr' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_indi_addr.v:64]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_indi_addr.v:100]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_indi_addr' (11#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_indi_addr.v:64]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_memory_interface' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:92]
+WARNING: [Synth 8-6896] wait statement is inside initial block, initial block items will be ignored [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:1170]
+INFO: [Synth 8-251]    progran execution from external rom [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:374]
+INFO: [Synth 8-251]    progran execution from internal rom [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:376]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:426]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:507]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:948]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_memory_interface' (12#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:92]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_sfr' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sfr.v:98]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_acc' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_acc.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_acc' (13#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_acc.v:77]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_b_register' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_b_register.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_b_register' (14#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_b_register.v:65]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_sp' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sp.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_sp' (15#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sp.v:66]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_dptr' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_dptr.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_dptr' (16#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_dptr.v:62]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_psw' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_psw.v:72]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_psw.v:121]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_psw' (17#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_psw.v:72]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_ports' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ports.v:69]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ports.v:174]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ports.v:194]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_ports' (18#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_ports.v:69]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_uart' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_uart.v:73]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_uart.v:289]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_uart' (19#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_uart.v:73]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_int' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_int.v:75]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_int.v:192]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_int' (20#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_int.v:75]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_tc' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc.v:72]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc.v:203]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_tc' (21#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc.v:72]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_tc2' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc2.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_tc2' (22#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_tc2.v:64]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sfr.v:593]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sfr.v:669]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_sfr' (23#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_sfr.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_top' (24#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_top.v:115]
+INFO: [Synth 8-6157] synthesizing module 'oc8051_xrom' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:55]
+	Parameter DELAY bound to: 0 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/iankh/Documents/NTHU/8051/Project/in/uart_asm.in' is read successfully [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:79]
+INFO: [Synth 8-251] 	 -----------------------  [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:80]
+INFO: [Synth 8-251] 	 * External rom load data complete [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:81]
+INFO: [Synth 8-251] 	 -----------------------  [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_xrom' (25#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_xrom.v:55]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/clock_divider.v:23]
+	Parameter freq bound to: 30000000 - type: integer 
+	Parameter cmp bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (26#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/clock_divider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'oc8051_fpga_top' (27#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/new/oc8051_fpga_top.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_oc8051_fpga_top_0_0' (28#1) [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_oc8051_fpga_top_0_0/synth/design_1_oc8051_fpga_top_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
+	Parameter C_USE_DEFAULT_ACP_USER_VAL bound to: 0 - type: integer 
+	Parameter C_S_AXI_ACP_ARUSER_VAL bound to: 31 - type: integer 
+	Parameter C_S_AXI_ACP_AWUSER_VAL bound to: 31 - type: integer 
+	Parameter C_M_AXI_GP0_THREAD_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP1_THREAD_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP0_ENABLE_STATIC_REMAP bound to: 0 - type: integer 
+	Parameter C_M_AXI_GP1_ENABLE_STATIC_REMAP bound to: 0 - type: integer 
+	Parameter C_M_AXI_GP0_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_M_AXI_GP1_ID_WIDTH bound to: 12 - type: integer 
+	Parameter C_S_AXI_GP0_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_GP1_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP0_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP1_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP2_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_HP3_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_ACP_ID_WIDTH bound to: 3 - type: integer 
+	Parameter C_S_AXI_HP0_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP1_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP2_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_S_AXI_HP3_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_INCLUDE_ACP_TRANS_CHECK bound to: 0 - type: integer 
+	Parameter C_NUM_F2P_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_FCLK_CLK0_BUF bound to: TRUE - type: string 
+	Parameter C_FCLK_CLK1_BUF bound to: FALSE - type: string 
+	Parameter C_FCLK_CLK2_BUF bound to: FALSE - type: string 
+	Parameter C_FCLK_CLK3_BUF bound to: FALSE - type: string 
+	Parameter C_EMIO_GPIO_WIDTH bound to: 64 - type: integer 
+	Parameter C_INCLUDE_TRACE_BUFFER bound to: 0 - type: integer 
+	Parameter C_TRACE_BUFFER_FIFO_SIZE bound to: 128 - type: integer 
+	Parameter C_TRACE_BUFFER_CLOCK_DELAY bound to: 12 - type: integer 
+	Parameter USE_TRACE_DATA_EDGE_DETECTOR bound to: 0 - type: integer 
+	Parameter C_TRACE_PIPELINE_WIDTH bound to: 8 - type: integer 
+	Parameter C_PS7_SI_REV bound to: PRODUCTION - type: string 
+	Parameter C_EN_EMIO_ENET0 bound to: 0 - type: integer 
+	Parameter C_EN_EMIO_ENET1 bound to: 0 - type: integer 
+	Parameter C_EN_EMIO_TRACE bound to: 0 - type: integer 
+	Parameter C_DQ_WIDTH bound to: 32 - type: integer 
+	Parameter C_DQS_WIDTH bound to: 4 - type: integer 
+	Parameter C_DM_WIDTH bound to: 4 - type: integer 
+	Parameter C_MIO_PRIMITIVE bound to: 54 - type: integer 
+	Parameter C_PACKAGE_NAME bound to: clg484 - type: string 
+	Parameter C_IRQ_F2P_MODE bound to: DIRECT - type: string 
+	Parameter C_TRACE_INTERNAL_WIDTH bound to: 2 - type: integer 
+	Parameter C_EN_EMIO_PJTAG bound to: 0 - type: integer 
+	Parameter C_USE_AXI_NONSECURE bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP0 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP1 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP2 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_HP3 bound to: 0 - type: integer 
+	Parameter C_USE_M_AXI_GP0 bound to: 0 - type: integer 
+	Parameter C_USE_M_AXI_GP1 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_GP0 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_GP1 bound to: 0 - type: integer 
+	Parameter C_USE_S_AXI_ACP bound to: 0 - type: integer 
+	Parameter C_GP0_EN_MODIFIABLE_TXN bound to: 1 - type: integer 
+	Parameter C_GP1_EN_MODIFIABLE_TXN bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (29#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'BIBUF' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:730]
+INFO: [Synth 8-6155] done synthesizing module 'BIBUF' (30#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:730]
+INFO: [Synth 8-6157] synthesizing module 'PS7' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:62027]
+INFO: [Synth 8-6155] done synthesizing module 'PS7' (31#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:62027]
+INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (32#1) [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:161]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+WARNING: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:196]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (33#1) [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (34#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (35#1) [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1063.199 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1291.102 ; gain = 228.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1063.199 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1291.102 ; gain = 228.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1063.199 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1291.102 ; gain = 228.797
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1063.199 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 1291.102 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc] for cell 'design_1_i/processing_system7_0'
-WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc:2]
-Finished Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc] for cell 'design_1_i/processing_system7_0'
-Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
-Finished Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
-Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_1/design_1_axi_gpio_1_1/design_1_axi_gpio_1_1_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
-Finished Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_1/design_1_axi_gpio_1_1/design_1_axi_gpio_1_1_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
-Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
-Finished Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
-Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Finished Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_100M'
-Finished Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_100M'
+Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc]
 WARNING: [Vivado 12-584] No ports matched 'clk_100M'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:82]
-WARNING: [Vivado 12-584] No ports matched 'internal_addr[7]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:175]
-WARNING: [Vivado 12-584] No ports matched 'internal_addr[6]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:176]
-WARNING: [Vivado 12-584] No ports matched 'internal_addr[5]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:177]
-WARNING: [Vivado 12-584] No ports matched 'internal_addr[4]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:178]
-WARNING: [Vivado 12-584] No ports matched 'internal_addr[3]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:179]
-WARNING: [Vivado 12-584] No ports matched 'internal_addr[2]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:180]
-WARNING: [Vivado 12-584] No ports matched 'internal_addr[1]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:181]
-WARNING: [Vivado 12-584] No ports matched 'internal_addr[0]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:182]
-WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:205]
-WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:362]
-WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:367]
-WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:372]
-WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:375]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'txd'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rxd'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:367]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:372]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:377]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc:380]
 Finished Parsing XDC File [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc]
-WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/constrs_1/imports/new/oc8051.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1109.762 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1342.516 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1109.762 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.091 . Memory (MB): peak = 1342.516 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1109.762 ; gain = 46.562
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 1342.516 ; gain = 280.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1109.762 ; gain = 46.562
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 1342.516 ; gain = 280.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 4).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[10]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 5).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[10]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 6).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[11]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 7).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[11]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 8).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[12]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 9).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[12]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 10).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[13]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 11).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[13]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 12).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[14]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 13).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[14]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 14).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 15).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 16).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 17).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 18).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 19).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 20).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[4]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 21).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[4]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 22).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[5]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 23).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[5]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 24).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[6]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 25).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[6]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 26).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[7]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 27).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[7]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 28).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[8]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 29).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[8]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 30).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_addr[9]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 31).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_addr[9]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 32).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_ba[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 33).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_ba[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 34).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_ba[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 35).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_ba[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 36).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_ba[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 37).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_ba[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 38).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_cas_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 39).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_cas_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 40).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_cke. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 41).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_cke. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 42).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_cs_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 43).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_cs_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 44).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_ck_p. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 45).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_ck_p. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 46).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_ck_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 47).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_ck_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 48).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dm[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 49).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dm[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 50).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dm[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 51).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dm[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 52).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dm[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 53).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dm[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 54).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dm[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 55).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dm[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 56).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dqs_p[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 57).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dqs_p[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 58).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dqs_p[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 59).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dqs_p[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 60).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dqs_p[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 61).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dqs_p[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 62).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dqs_p[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 63).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dqs_p[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 64).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dqs_n[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 65).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dqs_n[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 66).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dqs_n[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 67).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dqs_n[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 68).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dqs_n[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 69).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dqs_n[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 70).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dqs_n[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 71).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dqs_n[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 72).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 73).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 74).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[10]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 75).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[10]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 76).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[11]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 77).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[11]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 78).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[12]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 79).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[12]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 80).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[13]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 81).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[13]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 82).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[14]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 83).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[14]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 84).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[15]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 85).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[15]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 86).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[16]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 87).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[16]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 88).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[17]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 89).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[17]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 90).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[18]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 91).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[18]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 92).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[19]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 93).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[19]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 94).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 95).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 96).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[20]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 97).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[20]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 98).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[21]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 99).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[21]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 100).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[22]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 101).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[22]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 102).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[23]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 103).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[23]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 104).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[24]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 105).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[24]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 106).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[25]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 107).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[25]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 108).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[26]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 109).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[26]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 110).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[27]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 111).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[27]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 112).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[28]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 113).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[28]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 114).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[29]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 115).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[29]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 116).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 117).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 118).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[30]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 119).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[30]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 120).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[31]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 121).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[31]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 122).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 123).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 124).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[4]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 125).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[4]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 126).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[5]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 127).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[5]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 128).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[6]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 129).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[6]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 130).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[7]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 131).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[7]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 132).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[8]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 133).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[8]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 134).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_dq[9]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 135).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_dq[9]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 136).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_reset_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 137).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_reset_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 138).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_odt. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 139).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_odt. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 140).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_ras_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 141).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_ras_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 142).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_ddr_vrn. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 143).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_ddr_vrn. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 144).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_ddr_vrp. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 145).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_ddr_vrp. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 146).
-Applied set_property IO_BUFFER_TYPE = NONE for DDR_0_we_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 147).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_0_we_n. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 148).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 149).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[0]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 150).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[10]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 151).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[10]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 152).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[11]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 153).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[11]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 154).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[12]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 155).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[12]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 156).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[13]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 157).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[13]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 158).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[14]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 159).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[14]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 160).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[15]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 161).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[15]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 162).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[16]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 163).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[16]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 164).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[17]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 165).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[17]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 166).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[18]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 167).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[18]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 168).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[19]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 169).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[19]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 170).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 171).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[1]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 172).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[20]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 173).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[20]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 174).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[21]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 175).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[21]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 176).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[22]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 177).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[22]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 178).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[23]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 179).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[23]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 180).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[24]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 181).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[24]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 182).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[25]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 183).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[25]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 184).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[26]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 185).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[26]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 186).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[27]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 187).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[27]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 188).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[28]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 189).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[28]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 190).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[29]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 191).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[29]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 192).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 193).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[2]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 194).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[30]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 195).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[30]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 196).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[31]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 197).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[31]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 198).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[32]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 199).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[32]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 200).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[33]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 201).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[33]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 202).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[34]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 203).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[34]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 204).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[35]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 205).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[35]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 206).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[36]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 207).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[36]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 208).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[37]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 209).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[37]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 210).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[38]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 211).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[38]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 212).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[39]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 213).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[39]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 214).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 215).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[3]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 216).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[40]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 217).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[40]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 218).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[41]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 219).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[41]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 220).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[42]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 221).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[42]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 222).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[43]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 223).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[43]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 224).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[44]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 225).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[44]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 226).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[45]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 227).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[45]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 228).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[46]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 229).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[46]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 230).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[47]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 231).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[47]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 232).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[48]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 233).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[48]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 234).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[49]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 235).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[49]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 236).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[4]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 237).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[4]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 238).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[50]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 239).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[50]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 240).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[51]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 241).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[51]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 242).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[52]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 243).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[52]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 244).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[53]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 245).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[53]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 246).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[5]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 247).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[5]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 248).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[6]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 249).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[6]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 250).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[7]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 251).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[7]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 252).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[8]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 253).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[8]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 254).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_mio[9]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 255).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_mio[9]. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 256).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_ps_clk. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 257).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_ps_clk. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 258).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_ps_porb. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 259).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_ps_porb. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 260).
-Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_0_ps_srstb. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 261).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_0_ps_srstb. (constraint file  c:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1/design_1_processing_system7_0_1_in_context.xdc, line 262).
+Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0/inst. (constraint file  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/dont_touch.xdc, line 16).
 Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/oc8051_fpga_top_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_1. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_100M. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1109.762 ; gain = 46.562
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 1342.516 ; gain = 280.211
 ---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'wr_addr_reg' [C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sources_1/imports/verilog/oc8051_memory_interface.v:427]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1109.762 ; gain = 46.562
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:43 ; elapsed = 00:01:21 . Memory (MB): peak = 1522.672 ; gain = 460.367
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   17 Bit       Adders := 3     
+	   2 Input   16 Bit       Adders := 4     
+	   4 Input   16 Bit       Adders := 1     
+	   2 Input   14 Bit       Adders := 2     
+	   3 Input    9 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 3     
+	   2 Input    8 Bit       Adders := 7     
+	   3 Input    8 Bit       Adders := 2     
+	   3 Input    5 Bit       Adders := 2     
+	   4 Input    5 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
+	   3 Input    4 Bit       Adders := 1     
+	   4 Input    4 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 5     
+	   3 Input    2 Bit       Adders := 1     
+	   4 Input    2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
++---XORs : 
+	                8 Bit    Wide XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 5     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 8     
+	                2 Bit    Registers := 11    
+	                1 Bit    Registers := 58    
++---RAMs : 
+	               2K Bit	(256 X 8 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 4     
+	   9 Input   16 Bit        Muxes := 1     
+	   8 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 3     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 102   
+	   8 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 2     
+	   9 Input    8 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 8     
+	   5 Input    8 Bit        Muxes := 4     
+	   2 Input    7 Bit        Muxes := 3     
+	   5 Input    7 Bit        Muxes := 1     
+	   4 Input    7 Bit        Muxes := 1     
+	   7 Input    6 Bit        Muxes := 2     
+	 114 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 8     
+	   7 Input    4 Bit        Muxes := 1     
+	  20 Input    3 Bit        Muxes := 1     
+	  11 Input    3 Bit        Muxes := 1     
+	  80 Input    3 Bit        Muxes := 2     
+	   6 Input    3 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 7     
+	 111 Input    3 Bit        Muxes := 2     
+	  10 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 2     
+	  23 Input    3 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 1     
+	  16 Input    3 Bit        Muxes := 1     
+	  33 Input    2 Bit        Muxes := 1     
+	   6 Input    2 Bit        Muxes := 3     
+	 111 Input    2 Bit        Muxes := 2     
+	  10 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 8     
+	   5 Input    2 Bit        Muxes := 1     
+	 114 Input    2 Bit        Muxes := 2     
+	   7 Input    2 Bit        Muxes := 1     
+	   8 Input    2 Bit        Muxes := 1     
+	  80 Input    2 Bit        Muxes := 1     
+	  23 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	  63 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 121   
+	  80 Input    1 Bit        Muxes := 1     
+	  23 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 7     
+	 111 Input    1 Bit        Muxes := 1     
+	  10 Input    1 Bit        Muxes := 1     
+	 114 Input    1 Bit        Muxes := 1     
+	  20 Input    1 Bit        Muxes := 1     
+	  11 Input    1 Bit        Muxes := 1     
+	  83 Input    1 Bit        Muxes := 3     
+	  16 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 9     
+	   9 Input    1 Bit        Muxes := 8     
+	   7 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 8     
+	  27 Input    1 Bit        Muxes := 1     
+	  15 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -427,25 +392,77 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1109.762 ; gain = 46.562
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:54 ; elapsed = 00:03:22 . Memory (MB): peak = 1583.824 ; gain = 521.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++-----------------------------+------------+---------------+----------------+
+|Module Name                  | RTL Object | Depth x Width | Implemented As | 
++-----------------------------+------------+---------------+----------------+
+|oc8051_rom                   | p_0_out    | 256x8         | LUT            | 
+|oc8051_rom                   | p_0_out    | 256x8         | LUT            | 
+|oc8051_rom                   | p_0_out    | 256x8         | LUT            | 
+|oc8051_rom                   | p_0_out    | 256x8         | LUT            | 
+|oc8051_xrom                  | p_0_out    | 65536x8       | LUT            | 
+|oc8051_xrom                  | p_0_out    | 65536x8       | LUT            | 
+|oc8051_xrom                  | p_0_out    | 65536x8       | LUT            | 
+|oc8051_xrom                  | p_0_out    | 65536x8       | LUT            | 
+|design_1_oc8051_fpga_top_0_0 | p_0_out    | 65536x8       | LUT            | 
+|design_1_oc8051_fpga_top_0_0 | p_0_out    | 65536x8       | LUT            | 
+|design_1_oc8051_fpga_top_0_0 | p_0_out    | 65536x8       | LUT            | 
+|design_1_oc8051_fpga_top_0_0 | p_0_out    | 65536x8       | LUT            | 
+|oc8051_rom                   | p_0_out    | 256x8         | LUT            | 
+|oc8051_rom                   | p_0_out    | 256x8         | LUT            | 
+|oc8051_rom                   | p_0_out    | 256x8         | LUT            | 
+|oc8051_rom                   | p_0_out    | 256x8         | LUT            | 
++-----------------------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++-----------------------------+----------------------------------------------------+-----------+----------------------+--------------------------+
+|Module Name                  | RTL Object                                         | Inference | Size (Depth x Width) | Primitives               | 
++-----------------------------+----------------------------------------------------+-----------+----------------------+--------------------------+
+|design_1_i/oc8051_fpga_top_0 | oc8051_top_1/oc8051_ram_top1/oc8051_idata/buff_reg | Implied   | 256 x 8              | RAM64X1D x 8	RAM64M x 8	 | 
++-----------------------------+----------------------------------------------------+-----------+----------------------+--------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1137.113 ; gain = 73.914
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:02 ; elapsed = 00:03:36 . Memory (MB): peak = 1657.602 ; gain = 595.297
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1137.266 ; gain = 74.066
+Finished Timing Optimization : Time (s): cpu = 00:02:14 ; elapsed = 00:03:59 . Memory (MB): peak = 1929.262 ; gain = 866.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++-----------------------------+----------------------------------------------------+-----------+----------------------+--------------------------+
+|Module Name                  | RTL Object                                         | Inference | Size (Depth x Width) | Primitives               | 
++-----------------------------+----------------------------------------------------+-----------+----------------------+--------------------------+
+|design_1_i/oc8051_fpga_top_0 | oc8051_top_1/oc8051_ram_top1/oc8051_idata/buff_reg | Implied   | 256 x 8              | RAM64X1D x 8	RAM64M x 8	 | 
++-----------------------------+----------------------------------------------------+-----------+----------------------+--------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1156.359 ; gain = 93.160
+Finished Technology Mapping : Time (s): cpu = 00:02:18 ; elapsed = 00:04:07 . Memory (MB): peak = 1929.262 ; gain = 866.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -463,85 +480,95 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1161.141 ; gain = 97.941
+Finished IO Insertion : Time (s): cpu = 00:02:22 ; elapsed = 00:04:14 . Memory (MB): peak = 1929.262 ; gain = 866.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1161.141 ; gain = 97.941
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:22 ; elapsed = 00:04:14 . Memory (MB): peak = 1929.262 ; gain = 866.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1161.141 ; gain = 97.941
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:22 ; elapsed = 00:04:14 . Memory (MB): peak = 1929.262 ; gain = 866.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1161.141 ; gain = 97.941
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:22 ; elapsed = 00:04:14 . Memory (MB): peak = 1929.262 ; gain = 866.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1161.141 ; gain = 97.941
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:22 ; elapsed = 00:04:15 . Memory (MB): peak = 1929.262 ; gain = 866.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1161.141 ; gain = 97.941
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:22 ; elapsed = 00:04:15 . Memory (MB): peak = 1929.262 ; gain = 866.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 Report BlackBoxes: 
-+------+--------------------------------+----------+
-|      |BlackBox name                   |Instances |
-+------+--------------------------------+----------+
-|1     |design_1_xbar_0                 |         1|
-|2     |design_1_auto_pc_0              |         1|
-|3     |design_1_axi_gpio_0_1           |         1|
-|4     |design_1_axi_gpio_1_1           |         1|
-|5     |design_1_processing_system7_0_1 |         1|
-|6     |design_1_rst_ps7_0_100M_0       |         1|
-+------+--------------------------------+----------+
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
 
 Report Cell Usage: 
-+------+------------------------------+------+
-|      |Cell                          |Count |
-+------+------------------------------+------+
-|1     |design_1_auto_pc              |     1|
-|2     |design_1_axi_gpio_0           |     1|
-|3     |design_1_axi_gpio_1           |     1|
-|4     |design_1_processing_system7_0 |     1|
-|5     |design_1_rst_ps7_0_100M       |     1|
-|6     |design_1_xbar                 |     1|
-|7     |IBUF                          |    13|
-|8     |OBUF                          |     8|
-+------+------------------------------+------+
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BIBUF    |   130|
+|2     |BUFG     |     2|
+|3     |CARRY4   |    61|
+|4     |LUT1     |   171|
+|5     |LUT2     |   156|
+|6     |LUT3     |   224|
+|7     |LUT4     |   190|
+|8     |LUT5     |   353|
+|9     |LUT6     |  1082|
+|10    |MUXF7    |    57|
+|11    |MUXF8    |     6|
+|12    |PS7      |     1|
+|13    |RAM64M   |     8|
+|14    |RAM64X1D |     8|
+|15    |FDCE     |   609|
+|16    |FDPE     |    43|
+|17    |LD       |     8|
+|18    |IBUF     |     1|
+|19    |OBUF     |     2|
++------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1161.141 ; gain = 97.941
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:22 ; elapsed = 00:04:15 . Memory (MB): peak = 1929.262 ; gain = 866.957
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1161.141 ; gain = 51.379
-Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1161.141 ; gain = 97.941
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:08 ; elapsed = 00:04:08 . Memory (MB): peak = 1929.262 ; gain = 815.543
+Synthesis Optimization Complete : Time (s): cpu = 00:02:22 ; elapsed = 00:04:15 . Memory (MB): peak = 1929.262 ; gain = 866.957
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1173.133 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.114 . Memory (MB): peak = 1929.262 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 148 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1183.848 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1929.262 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 24 instances were transformed.
+  LD => LDCE: 8 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 8 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 8 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-40 Infos, 30 Warnings, 0 Critical Warnings and 0 Errors encountered.
+116 Infos, 23 Warnings, 3 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 1183.848 ; gain = 120.648
+synth_design: Time (s): cpu = 00:02:28 ; elapsed = 00:04:29 . Memory (MB): peak = 1929.262 ; gain = 866.957
 INFO: [Common 17-1381] The checkpoint 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Sep 15 14:21:56 2022...
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 24 01:06:36 2022...

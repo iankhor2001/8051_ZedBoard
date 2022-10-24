@@ -76,7 +76,7 @@ initial
 begin
   for (i=0; i<65536; i=i+1)
     buff [i] = 8'h00;
-  $readmemh("D:/Vivado/oc8051/in/testall.in", buff);
+  $readmemh("C:/Users/iankh/Documents/NTHU/8051/Project/in/uart_asm.in", buff);
   $display("\t ----------------------- ");
   $display("\t * External rom load data complete");
   $display("\t ----------------------- ");

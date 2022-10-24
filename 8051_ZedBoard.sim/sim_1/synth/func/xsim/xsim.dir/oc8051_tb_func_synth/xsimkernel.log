@@ -1,0 +1,7 @@
+Running: xsim.dir/oc8051_tb_func_synth/xsimk.exe -simmode gui -wdb oc8051_tb_func_synth.wdb -simrunnum 0 -socket 56472
+Design successfully loaded
+Design Loading Memory Usage: 8060 KB (Peak: 8060 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 18052 KB (Peak: 18052 KB)
+Simulation CPU Usage: 3562 ms

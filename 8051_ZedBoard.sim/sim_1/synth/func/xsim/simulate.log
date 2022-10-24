@@ -1,2 +1,13 @@
 Vivado Simulator 2020.1
 Time resolution is 1 ps
+	 ----------------------- 
+	 * External rom load data complete
+	 ----------------------- 
+WARNING: File ../../../../../in/in/oc8051_ea.in referenced on C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_ZedBoard.srcs/sim_1/imports/verilog/oc8051_tb.v at line 344 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+	 * 
+	 * External rom interface: Pipelined interface
+	 * 
+ 
+	 Program running from external rom !
+ 
+   progran execution from internal rom

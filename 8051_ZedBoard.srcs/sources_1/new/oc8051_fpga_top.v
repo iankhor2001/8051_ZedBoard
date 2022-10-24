@@ -89,9 +89,11 @@ module oc8051_fpga_top (clk_100M, rst
 //
 //   , btn_r
 //   , rst_o
-     , internal_addr
+//     , internal_addr
      , rxd
      , txd
+     , txd_led
+     , rst_led
    );
 
 input clk_100M, rst;
@@ -105,6 +107,11 @@ wire [31:0] idat_i;
 
 input rxd;
 output txd;
+
+output rst_led;
+assign rst_led = rst;
+output txd_led;   /////////////////////////////////////////
+assign txd_led = txd;
 
 wire istb_o;
 wire  icyc_o, stb_o, cyc_o, we_o;
@@ -127,7 +134,8 @@ wire [7:0] SSD_an;
 //input btn_r;
 //output wire rst_o;
 wire rst_o;
-output wire [7:0]internal_addr;
+//output wire [7:0]internal_addr;
+wire [7:0]internal_addr;
 assign internal_addr = iadr_o[15:8];
 assign rst_o = rst;
 
@@ -177,16 +185,16 @@ defparam oc8051_xrom1.DELAY = 0;
 //                         .data_in(dat_o), .data_out(dat_i), .ack(ack_i), .stb(stb_o));
 
 
-  disp disp1(
-    .clock_100Mhz(clk_100M), // 100 Mhz clock
-    .reset(rst), // reset
-    .in0(p0_out),
-    .in1(p1_out),
-    .in2(iadr_o[7:0]),
-    .in3(iadr_o[15:8]),
-    .SSD_an(SSD_an), // anode signals of the 7-segment LED display
-    .SSD_out(SSD_out)
-    );
+//  disp disp1(
+//    .clock_100Mhz(clk_100M), // 100 Mhz clock
+//    .reset(rst), // reset
+//    .in0(p0_out),
+//    .in1(p1_out),
+//    .in2(iadr_o[7:0]),
+//    .in3(iadr_o[15:8]),
+//    .SSD_an(SSD_an), // anode signals of the 7-segment LED display
+//    .SSD_out(SSD_out)
+//    );
 
   /*one_pulse one_pulse1(
     .clk(clk_100M),  

@@ -129,3 +129,155 @@ con
 
 14:18:42 INFO  : Launch script is exported to file 'C:\Users\iankh\Documents\NTHU\8051\Project\8051_ZedBoard\.sdk\launch_scripts\single_application_debug\debugger_zedboard_getting_started_with_zynq-default.tcl'
 14:19:38 INFO  : Disconnected from the channel tcfchan#4.
+22:28:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\iankh\Documents\NTHU\8051\Project\8051_ZedBoard\temp_xsdb_launch_script.tcl
+22:28:08 INFO  : Registering command handlers for Vitis TCF services
+22:28:15 INFO  : XSCT server has started successfully.
+22:28:15 INFO  : plnx-install-location is set to ''
+22:28:17 INFO  : Successfully done setting XSCT server connection channel  
+22:28:17 INFO  : Successfully done query RDI_DATADIR 
+22:28:18 INFO  : Successfully done setting workspace for the tool. 
+22:28:18 INFO  : Platform repository initialization has completed.
+22:29:59 INFO  : Result from executing command 'getProjects': 8051_UART
+22:29:59 INFO  : Result from executing command 'getPlatforms': 
+22:30:01 INFO  : Platform '8051_UART' is added to custom repositories.
+22:30:23 INFO  : Platform '8051_UART' is added to custom repositories.
+22:31:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:31:30 INFO  : Jtag cable 'Digilent Zed 210248B4A80B' is selected.
+22:31:30 INFO  : 'jtag frequency' command is executed.
+22:31:30 INFO  : Context for 'APU' is selected.
+22:31:30 INFO  : System reset is completed.
+22:31:33 INFO  : 'after 3000' command is executed.
+22:31:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}' command is executed.
+22:31:36 INFO  : FPGA configured successfully with bitstream "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/bitstream/8051_UART.bit"
+22:31:36 INFO  : Context for 'APU' is selected.
+22:31:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/hw/8051_UART.xsa'.
+22:31:36 INFO  : 'configparams force-mem-access 1' command is executed.
+22:31:36 INFO  : Context for 'APU' is selected.
+22:31:36 INFO  : Sourcing of 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/psinit/ps7_init.tcl' is done.
+22:31:37 INFO  : 'ps7_init' command is executed.
+22:31:37 INFO  : 'ps7_post_config' command is executed.
+22:31:37 INFO  : 'configparams force-mem-access 0' command is executed.
+22:31:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}
+fpga -file C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/bitstream/8051_UART.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/hw/8051_UART.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:31:37 INFO  : Launch script is exported to file 'C:\Users\iankh\Documents\NTHU\8051\Project\8051_ZedBoard\.sdk\launch_scripts\single_application_debug\systemdebugger_8051_uart_zedboard_system_standalone.tcl'
+00:58:30 INFO  : Disconnected from the channel tcfchan#1.
+00:58:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:58:36 INFO  : Jtag cable 'Digilent Zed 210248B4A80B' is selected.
+00:58:36 INFO  : 'jtag frequency' command is executed.
+00:58:36 INFO  : Context for 'APU' is selected.
+00:58:36 INFO  : System reset is completed.
+00:58:39 INFO  : 'after 3000' command is executed.
+00:58:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}' command is executed.
+00:58:41 INFO  : FPGA configured successfully with bitstream "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/bitstream/8051_UART.bit"
+00:58:41 INFO  : Context for 'APU' is selected.
+00:58:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/hw/8051_UART.xsa'.
+00:58:41 INFO  : 'configparams force-mem-access 1' command is executed.
+00:58:41 INFO  : Context for 'APU' is selected.
+00:58:41 INFO  : Sourcing of 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/psinit/ps7_init.tcl' is done.
+00:58:42 INFO  : 'ps7_init' command is executed.
+00:58:42 INFO  : 'ps7_post_config' command is executed.
+00:58:42 INFO  : 'configparams force-mem-access 0' command is executed.
+00:58:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}
+fpga -file C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/bitstream/8051_UART.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/hw/8051_UART.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:58:42 INFO  : Launch script is exported to file 'C:\Users\iankh\Documents\NTHU\8051\Project\8051_ZedBoard\.sdk\launch_scripts\single_application_debug\systemdebugger_8051_uart_zedboard_system_1_standalone.tcl'
+01:10:42 INFO  : Disconnected from the channel tcfchan#2.
+01:10:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:10:44 INFO  : Jtag cable 'Digilent Zed 210248B4A80B' is selected.
+01:10:44 INFO  : 'jtag frequency' command is executed.
+01:10:44 INFO  : Context for 'APU' is selected.
+01:10:44 INFO  : System reset is completed.
+01:10:47 INFO  : 'after 3000' command is executed.
+01:10:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}' command is executed.
+01:10:50 INFO  : FPGA configured successfully with bitstream "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/bitstream/8051_UART.bit"
+01:10:50 INFO  : Context for 'APU' is selected.
+01:10:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/hw/8051_UART.xsa'.
+01:10:50 INFO  : 'configparams force-mem-access 1' command is executed.
+01:10:50 INFO  : Context for 'APU' is selected.
+01:10:50 INFO  : Sourcing of 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/psinit/ps7_init.tcl' is done.
+01:10:51 INFO  : 'ps7_init' command is executed.
+01:10:51 INFO  : 'ps7_post_config' command is executed.
+01:10:51 INFO  : 'configparams force-mem-access 0' command is executed.
+01:10:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}
+fpga -file C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/bitstream/8051_UART.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/hw/8051_UART.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:10:51 INFO  : Launch script is exported to file 'C:\Users\iankh\Documents\NTHU\8051\Project\8051_ZedBoard\.sdk\launch_scripts\single_application_debug\systemdebugger_8051_uart_zedboard_system_2_standalone.tcl'
+01:17:17 INFO  : Disconnected from the channel tcfchan#3.
+01:17:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:17:20 INFO  : Jtag cable 'Digilent Zed 210248B4A80B' is selected.
+01:17:20 INFO  : 'jtag frequency' command is executed.
+01:17:20 INFO  : Context for 'APU' is selected.
+01:17:20 INFO  : System reset is completed.
+01:17:23 INFO  : 'after 3000' command is executed.
+01:17:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}' command is executed.
+01:17:26 INFO  : FPGA configured successfully with bitstream "C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/bitstream/8051_UART.bit"
+01:17:26 INFO  : Context for 'APU' is selected.
+01:17:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/hw/8051_UART.xsa'.
+01:17:26 INFO  : 'configparams force-mem-access 1' command is executed.
+01:17:26 INFO  : Context for 'APU' is selected.
+01:17:26 INFO  : Sourcing of 'C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/psinit/ps7_init.tcl' is done.
+01:17:27 INFO  : 'ps7_init' command is executed.
+01:17:27 INFO  : 'ps7_post_config' command is executed.
+01:17:27 INFO  : 'configparams force-mem-access 0' command is executed.
+01:17:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B4A80B" && level==0 && jtag_device_ctx=="jsn-Zed-210248B4A80B-23727093-0"}
+fpga -file C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/bitstream/8051_UART.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/hw/8051_UART.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART_Zedboard/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:17:27 INFO  : Launch script is exported to file 'C:\Users\iankh\Documents\NTHU\8051\Project\8051_ZedBoard\.sdk\launch_scripts\single_application_debug\debugger_8051_uart_zedboard-default.tcl'
+01:18:11 INFO  : Disconnected from the channel tcfchan#4.

@@ -1,0 +1,1426 @@
+TRACE::2022-10-23.22:29:25::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:25::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:25::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:30::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:30::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:30::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:30::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-10-23.22:29:35::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:35::SCWWriter::formatted JSON is {
+	"platformName":	"8051_UART",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"8051_UART",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/8051_UART.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-10-23.22:29:35::SCWWriter::formatted JSON is {
+	"platformName":	"8051_UART",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"8051_UART",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/8051_UART.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"8051_UART",
+	"systems":	[{
+			"systemName":	"8051_UART",
+			"systemDesc":	"8051_UART",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"8051_UART"
+		}]
+}
+TRACE::2022-10-23.22:29:35::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-10-23.22:29:35::SCWDomain::checking for install qemu data   : 
+TRACE::2022-10-23.22:29:35::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2022-10-23.22:29:35::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-10-23.22:29:35::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:35::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:35::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:35::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:35::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:35::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:35::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2022-10-23.22:29:35::SCWPlatform::Generating the sources  .
+TRACE::2022-10-23.22:29:35::SCWBDomain::Generating boot domain sources.
+TRACE::2022-10-23.22:29:35::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2022-10-23.22:29:35::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:35::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:35::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:35::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:35::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-10-23.22:29:35::SCWMssOS::No sw design opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:35::SCWMssOS::mss does not exists at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:35::SCWMssOS::Creating sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:35::SCWMssOS::Adding the swdes entry, created swdb C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:35::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:35::SCWMssOS::Writing mss at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:35::SCWMssOS::Completed writing the mss file at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-10-23.22:29:35::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-23.22:29:35::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-23.22:29:35::SCWBDomain::Completed writing the mss file at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-10-23.22:29:55::SCWPlatform::Generating sources Done.
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2022-10-23.22:29:55::SCWMssOS::Could not open the swdb for C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2022-10-23.22:29:55::SCWMssOS::Could not open the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2022-10-23.22:29:55::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-10-23.22:29:55::SCWMssOS::No sw design opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::mss exists loading the mss file  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::Opened the sw design from mss  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::Adding the swdes entry C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-10-23.22:29:55::SCWMssOS::updating the scw layer about changes
+TRACE::2022-10-23.22:29:55::SCWMssOS::Opened the sw design.  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:29:55::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:29:55::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWWriter::formatted JSON is {
+	"platformName":	"8051_UART",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"8051_UART",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/8051_UART.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"8051_UART",
+	"systems":	[{
+			"systemName":	"8051_UART",
+			"systemDesc":	"8051_UART",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"8051_UART",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"14b39dfa6169455477dd3371776c0de7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-10-23.22:29:55::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:29:55::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:29:55::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:55::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWWriter::formatted JSON is {
+	"platformName":	"8051_UART",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"8051_UART",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/8051_UART.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"8051_UART",
+	"systems":	[{
+			"systemName":	"8051_UART",
+			"systemDesc":	"8051_UART",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"8051_UART",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"14b39dfa6169455477dd3371776c0de7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-10-23.22:29:55::SCWDomain::checking for install qemu data   : 
+TRACE::2022-10-23.22:29:55::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/
+TRACE::2022-10-23.22:29:55::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:55::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:55::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:55::SCWMssOS::No sw design opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::mss does not exists at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::Creating sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::Adding the swdes entry, created swdb C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss with des name C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::Writing mss at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:55::SCWMssOS::Completed writing the mss file at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp
+TRACE::2022-10-23.22:29:55::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-23.22:29:55::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-10-23.22:29:55::SCWMssOS::Completed writing the mss file at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp
+TRACE::2022-10-23.22:29:55::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Running validate of swdbs.
+KEYINFO::2022-10-23.22:29:59::SCWMssOS::Could not open the swdb for C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+KEYINFO::2022-10-23.22:29:59::SCWMssOS::Could not open the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss is not found
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-10-23.22:29:59::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2022-10-23.22:29:59::SCWMssOS::Writing the mss file completed C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWWriter::formatted JSON is {
+	"platformName":	"8051_UART",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"8051_UART",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/8051_UART.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"8051_UART",
+	"systems":	[{
+			"systemName":	"8051_UART",
+			"systemDesc":	"8051_UART",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"8051_UART",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"14b39dfa6169455477dd3371776c0de7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"2c3128c135b4997565bc79ef8b8daed3",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-10-23.22:29:59::SCWPlatform::Started generating the artifacts platform 8051_UART
+TRACE::2022-10-23.22:29:59::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-23.22:29:59::SCWPlatform::Started generating the artifacts for system configuration 8051_UART
+LOG::2022-10-23.22:29:59::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-10-23.22:29:59::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-10-23.22:29:59::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-10-23.22:29:59::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-10-23.22:29:59::SCWSystem::Checking the domain domain_ps7_cortexa9_0
+LOG::2022-10-23.22:29:59::SCWSystem::Not a boot domain 
+LOG::2022-10-23.22:29:59::SCWSystem::Started Processing the domain domain_ps7_cortexa9_0
+TRACE::2022-10-23.22:29:59::SCWDomain::Generating domain artifcats
+TRACE::2022-10-23.22:29:59::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-23.22:29:59::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/sw/8051_UART/qemu/
+TRACE::2022-10-23.22:29:59::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/sw/8051_UART/domain_ps7_cortexa9_0/qemu/
+TRACE::2022-10-23.22:29:59::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::Completed writing the mss file at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp
+TRACE::2022-10-23.22:29:59::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-23.22:29:59::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-23.22:29:59::SCWDomain::Skipping the build for domain :  domain_ps7_cortexa9_0
+TRACE::2022-10-23.22:29:59::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-10-23.22:29:59::SCWMssOS::Copying to export directory.
+TRACE::2022-10-23.22:29:59::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-23.22:29:59::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2022-10-23.22:29:59::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2022-10-23.22:29:59::SCWSystem::Completed Processing the domain domain_ps7_cortexa9_0
+LOG::2022-10-23.22:29:59::SCWSystem::Completed Processing the sysconfig 8051_UART
+LOG::2022-10-23.22:29:59::SCWPlatform::Completed generating the artifacts for system configuration 8051_UART
+TRACE::2022-10-23.22:29:59::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-23.22:29:59::SCWSystem::Writing the bif file for system config 8051_UART
+TRACE::2022-10-23.22:29:59::SCWSystem::dir created 
+TRACE::2022-10-23.22:29:59::SCWSystem::Writing the bif 
+TRACE::2022-10-23.22:29:59::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-23.22:29:59::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-23.22:29:59::SCWPlatform::Completed generating the platform
+TRACE::2022-10-23.22:29:59::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:29:59::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:29:59::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:29:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:29:59::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:29:59::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:29:59::SCWWriter::formatted JSON is {
+	"platformName":	"8051_UART",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"8051_UART",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/8051_UART.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"8051_UART",
+	"systems":	[{
+			"systemName":	"8051_UART",
+			"systemDesc":	"8051_UART",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"8051_UART",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"14b39dfa6169455477dd3371776c0de7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"2c3128c135b4997565bc79ef8b8daed3",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-23.22:29:59::SCWPlatform::updated the xpfm file.
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWWriter::formatted JSON is {
+	"platformName":	"8051_UART",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"8051_UART",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/8051_UART.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"8051_UART",
+	"systems":	[{
+			"systemName":	"8051_UART",
+			"systemDesc":	"8051_UART",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"8051_UART",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"14b39dfa6169455477dd3371776c0de7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"2c3128c135b4997565bc79ef8b8daed3",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWWriter::formatted JSON is {
+	"platformName":	"8051_UART",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"8051_UART",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/8051_UART.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"8051_UART",
+	"systems":	[{
+			"systemName":	"8051_UART",
+			"systemDesc":	"8051_UART",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"8051_UART",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"14b39dfa6169455477dd3371776c0de7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"2c3128c135b4997565bc79ef8b8daed3",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-10-23.22:30:00::SCWPlatform::Started generating the artifacts platform 8051_UART
+TRACE::2022-10-23.22:30:00::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-10-23.22:30:00::SCWPlatform::Started generating the artifacts for system configuration 8051_UART
+LOG::2022-10-23.22:30:00::SCWSystem::Started Processing the domain domain_ps7_cortexa9_0
+TRACE::2022-10-23.22:30:00::SCWDomain::Generating domain artifcats
+TRACE::2022-10-23.22:30:00::SCWMssOS::Generating standalone artifcats
+TRACE::2022-10-23.22:30:00::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/sw/8051_UART/qemu/
+TRACE::2022-10-23.22:30:00::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/export/8051_UART/sw/8051_UART/domain_ps7_cortexa9_0/qemu/
+TRACE::2022-10-23.22:30:00::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::Completed writing the mss file at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp
+TRACE::2022-10-23.22:30:00::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-10-23.22:30:00::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-10-23.22:30:00::SCWDomain::Building the domain as part of full build :  domain_ps7_cortexa9_0
+TRACE::2022-10-23.22:30:00::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-10-23.22:30:00::SCWMssOS::Copying to export directory.
+TRACE::2022-10-23.22:30:00::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-10-23.22:30:00::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2022-10-23.22:30:00::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2022-10-23.22:30:00::SCWSystem::Completed Processing the domain domain_ps7_cortexa9_0
+LOG::2022-10-23.22:30:00::SCWSystem::Completed Processing the sysconfig 8051_UART
+LOG::2022-10-23.22:30:00::SCWPlatform::Completed generating the artifacts for system configuration 8051_UART
+TRACE::2022-10-23.22:30:00::SCWPlatform::Started preparing the platform 
+TRACE::2022-10-23.22:30:00::SCWSystem::Writing the bif file for system config 8051_UART
+TRACE::2022-10-23.22:30:00::SCWSystem::dir created 
+TRACE::2022-10-23.22:30:00::SCWSystem::Writing the bif 
+TRACE::2022-10-23.22:30:00::SCWPlatform::Started writing the spfm file 
+TRACE::2022-10-23.22:30:00::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-10-23.22:30:00::SCWPlatform::Completed generating the platform
+TRACE::2022-10-23.22:30:00::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Saving the mss changes C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-10-23.22:30:00::SCWMssOS::Commit changes completed.
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to open the hw design at C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA given C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA absoulate path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform::DSA directory C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Platform Path C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/hw/8051_UART.xsa
+TRACE::2022-10-23.22:30:00::SCWPlatform:: Unique name xilinx:zed::0.0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-10-23.22:30:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-10-23.22:30:00::SCWMssOS::Checking the sw design at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-10-23.22:30:00::SCWMssOS::Sw design exists and opened at  C:/Users/iankh/Documents/NTHU/8051/Project/8051_ZedBoard/8051_UART/ps7_cortexa9_0/domain_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-10-23.22:30:00::SCWWriter::formatted JSON is {
+	"platformName":	"8051_UART",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"8051_UART",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/8051_UART.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"8051_UART",
+	"systems":	[{
+			"systemName":	"8051_UART",
+			"systemDesc":	"8051_UART",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"8051_UART",
+			"sysActiveDom":	"domain_ps7_cortexa9_0",
+			"sysDefaultDom":	"domain_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"14b39dfa6169455477dd3371776c0de7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.3", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"domain_ps7_cortexa9_0",
+					"domainDispName":	"domain_ps7_cortexa9_0",
+					"domainDesc":	"domain_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.1/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"2c3128c135b4997565bc79ef8b8daed3",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-10-23.22:30:00::SCWPlatform::updated the xpfm file.

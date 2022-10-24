@@ -109,8 +109,8 @@ set_property PACKAGE_PIN Y9 [get_ports {clk_100M}];  # "GCLK"
 # ----------------------------------------------------------------------------
 # JC Pmod - Bank 13
 # ---------------------------------------------------------------------------- 
-#set_property PACKAGE_PIN AB6 [get_ports {JC1_N}];  # "JC1_N"
-#set_property PACKAGE_PIN AB7 [get_ports {JC1_P}];  # "JC1_P"
+set_property PACKAGE_PIN AB6 [get_ports {txd}];  # "JC1_N"
+set_property PACKAGE_PIN AB7 [get_ports {rxd}];  # "JC1_P"
 #set_property PACKAGE_PIN AA4 [get_ports {JC2_N}];  # "JC2_N"
 #set_property PACKAGE_PIN Y4  [get_ports {JC2_P}];  # "JC2_P"
 #set_property PACKAGE_PIN T6  [get_ports {JC3_N}];  # "JC3_N"
@@ -172,14 +172,14 @@ set_property PACKAGE_PIN Y9 [get_ports {clk_100M}];  # "GCLK"
 # ----------------------------------------------------------------------------
 # User LEDs - Bank 33
 # ---------------------------------------------------------------------------- 
-set_property PACKAGE_PIN T22 [get_ports {internal_addr[7]}];  # "LD0"
-set_property PACKAGE_PIN T21 [get_ports {internal_addr[6]}];  # "LD1"
-set_property PACKAGE_PIN U22 [get_ports {internal_addr[5]}];  # "LD2"
-set_property PACKAGE_PIN U21 [get_ports {internal_addr[4]}];  # "LD3"
-set_property PACKAGE_PIN V22 [get_ports {internal_addr[3]}];  # "LD4"
-set_property PACKAGE_PIN W22 [get_ports {internal_addr[2]}];  # "LD5"
-set_property PACKAGE_PIN U19 [get_ports {internal_addr[1]}];  # "LD6"
-set_property PACKAGE_PIN U14 [get_ports {internal_addr[0]}];  # "LD7"
+set_property PACKAGE_PIN T22 [get_ports {txd_led_0}];  # "LD0"
+set_property PACKAGE_PIN T21 [get_ports {rst_led_0}];  # "LD1"
+#set_property PACKAGE_PIN U22 [get_ports {GPIO_0_0_tri_io[15]}];  # "LD2"
+#set_property PACKAGE_PIN U21 [get_ports {GPIO_0_0_tri_io[16]}];  # "LD3"
+#set_property PACKAGE_PIN V22 [get_ports {GPIO_0_0_tri_io[17]}];  # "LD4"
+#set_property PACKAGE_PIN W22 [get_ports {GPIO_0_0_tri_io[18]}];  # "LD5"
+#set_property PACKAGE_PIN U19 [get_ports {GPIO_0_0_tri_io[19]}];  # "LD6"
+#set_property PACKAGE_PIN U14 [get_ports {GPIO_0_0_tri_io[20]}];  # "LD7"
 
 # ----------------------------------------------------------------------------
 # VGA Output - Bank 33
@@ -203,10 +203,10 @@ set_property PACKAGE_PIN U14 [get_ports {internal_addr[0]}];  # "LD7"
 # User Push Buttons - Bank 34
 # ---------------------------------------------------------------------------- 
 set_property PACKAGE_PIN P16 [get_ports {rst}];  # "BTNC"
-#set_property PACKAGE_PIN R16 [get_ports {BTND}];  # "BTND"
-#set_property PACKAGE_PIN N15 [get_ports {BTNL}];  # "BTNL"
-#set_property PACKAGE_PIN R18 [get_ports {BTNR}];  # "BTNR"
-#set_property PACKAGE_PIN T18 [get_ports {BTNU}];  # "BTNU"
+#set_property PACKAGE_PIN R16 [get_ports {GPIO_0_0_tri_io[1]}];  # "BTND"
+#set_property PACKAGE_PIN N15 [get_ports {GPIO_0_0_tri_io[2]}];  # "BTNL"
+#set_property PACKAGE_PIN R18 [get_ports {GPIO_0_0_tri_io[3]}];  # "BTNR"
+#set_property PACKAGE_PIN T18 [get_ports {GPIO_0_0_tri_io[4]}];  # "BTNU"
 
 # ----------------------------------------------------------------------------
 # USB OTG Reset - Bank 34
@@ -234,14 +234,14 @@ set_property PACKAGE_PIN P16 [get_ports {rst}];  # "BTNC"
 ## ----------------------------------------------------------------------------
 ## User DIP Switches - Bank 35
 ## ---------------------------------------------------------------------------- 
-#set_property PACKAGE_PIN F22 [get_ports {SW0}];  # "SW0"
-#set_property PACKAGE_PIN G22 [get_ports {SW1}];  # "SW1"
-#set_property PACKAGE_PIN H22 [get_ports {SW2}];  # "SW2"
-#set_property PACKAGE_PIN F21 [get_ports {SW3}];  # "SW3"
-#set_property PACKAGE_PIN H19 [get_ports {SW4}];  # "SW4"
-#set_property PACKAGE_PIN H18 [get_ports {SW5}];  # "SW5"
-#set_property PACKAGE_PIN H17 [get_ports {SW6}];  # "SW6"
-#set_property PACKAGE_PIN M15 [get_ports {SW7}];  # "SW7"
+#set_property PACKAGE_PIN F22 [get_ports {GPIO_0_0_tri_io[5]}];  # "SW0"
+#set_property PACKAGE_PIN G22 [get_ports {GPIO_0_0_tri_io[6]}];  # "SW1"
+#set_property PACKAGE_PIN H22 [get_ports {GPIO_0_0_tri_io[7]}];  # "SW2"
+#set_property PACKAGE_PIN F21 [get_ports {GPIO_0_0_tri_io[8]}];  # "SW3"
+#set_property PACKAGE_PIN H19 [get_ports {GPIO_0_0_tri_io[9]}];  # "SW4"
+#set_property PACKAGE_PIN H18 [get_ports {GPIO_0_0_tri_io[10]}];  # "SW5"
+#set_property PACKAGE_PIN H17 [get_ports {GPIO_0_0_tri_io[11]}];  # "SW6"
+#set_property PACKAGE_PIN M15 [get_ports {GPIO_0_0_tri_io[12]}];  # "SW7"
 
 ## ----------------------------------------------------------------------------
 ## XADC AD Channels - Bank 35
@@ -342,6 +342,11 @@ set_property PACKAGE_PIN P16 [get_ports {rst}];  # "BTNC"
 #set_property PACKAGE_PIN B22 [get_ports {FMC_LA33_N}];  # "FMC-LA33_N"
 #set_property PACKAGE_PIN B21 [get_ports {FMC_LA33_P}];  # "FMC-LA33_P"
 
+#========================================================# # === Pmod JB === #========================================================# 
+
+# PIN 1 => # PIN 2 => uart1_tx # PIN 3 => uart1_rx # PIN 4 => 
+#set_property PACKAGE_PIN E16 [get_ports {rxd}]
+#set_property PACKAGE_PIN D15 [get_ports {txd}]
 
 # ----------------------------------------------------------------------------
 # IOSTANDARD Constraints
